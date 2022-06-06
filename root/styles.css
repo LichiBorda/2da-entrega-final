@@ -264,7 +264,7 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     margin-bottom: 10px;
-    padding-left: 20px;
+    padding-left: 5px;
     padding-right: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -310,5 +310,9 @@ footer {
  .carousel-item{
     height:350px
     }
-       
-      
+   
+    
+.container {
+    display: grid;
+    justify-items: star;
+}
