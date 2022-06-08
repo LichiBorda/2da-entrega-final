@@ -1,0 +1,15 @@
+{
+  "name": "sass_node",
+  "version": "1.0.0",
+  "description": "un paquete de sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lisandro Borda",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
