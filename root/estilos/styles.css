@@ -1,0 +1,127 @@
+.border {
+  border: 3px solid;
+}
+
+body {
+  font-family: "Koulen", cursive;
+}
+
+.section {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.conteiner {
+  margin-left: 5px;
+  padding-top: 20px;
+}
+
+.section-imagen {
+  padding-left: 0px;
+  padding-right: 3px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.section__titulo {
+  margin: 10px 20px 20px 10px;
+}
+
+.section__contenido {
+  display: flex;
+  flex-direction: column;
+  margin-bot: 0px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 70px;
+}
+
+.carousel-item {
+  justify-content: center;
+}
+
+/* ESTILO DEL CONTENIDO DE LA PAGINA TITULO PARRAFO E IMAGEN*/
+@media (min-width: 576px) {
+  .section-imagen {
+    display: flex justify-content center padding-right 3px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+}
+
+
+/*HEADER*/
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: aqua;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+  border: 3PX solid;
+}
+
+.header__logo {
+  display: flex;
+}
+
+.header__titulo {
+  display: flex;
+  padding-left: 15px;
+}
+
+/*FOOTER*/
+.navbar {
+  background: none margin-top 20px padding-top 5px;
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-bottom: 5px;
+  border: 5PX solid;
+  margin-left: 5px;
+  background: rgb(186, 186, 181);
+  background: linear-gradient(167deg, rgb(186, 186, 181) 0%, rgb(237, 169, 131) 29%, rgb(125, 122, 120) 72%, rgb(255, 255, 255) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#babab5",endColorstr="#ffffff",GradientType=1);
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer__titulo {
+  display: flex;
+  margin-top: 20px;
+}
+
+.footer__redes {
+  margin-top: 30px;
+}
+
+/*ESTILO DEL FOOTER */
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 4px;
+  margin-right: 4px;
+  background: rgb(186, 186, 181);
+  background: linear-gradient(167deg, rgb(186, 186, 181) 0%, rgb(233, 217, 208) 29%, rgb(125, 122, 120) 72%, rgb(0, 0, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#babab5",endColorstr="#000000",GradientType=1);
+}
+
+.navbar {
+  border: 3px solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.banner {
+  background: url(/root/imagenes/background2.jpg) no-repeat;
+  background-size: cover;
+}/*# sourceMappingURL=styles.css.map */
